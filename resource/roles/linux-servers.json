@@ -1,0 +1,8 @@
+{
+  "name": "linux-servers"
+  ,"run_list": [
+                 "recipe[apache::default]",
+                 "recipe[mysql::default]",
+                 "recipe[yum_repo::default]"
+               ]
+}

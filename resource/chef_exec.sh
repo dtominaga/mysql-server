@@ -1,0 +1,1 @@
+chef exec bundle exec knife zero converge 'name:node-db' -x vagrant --sudo
